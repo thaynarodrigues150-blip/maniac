@@ -1,0 +1,75 @@
+body {
+    color: #051b33;
+    margin: 0;
+    padding: 0;
+    font-family: Inria Serif,sans-serif;
+    border: 8px solid #d40000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-weight: bold;
+}
+.logo span{
+    color: #ffd900;
+}
+.triangulo{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 20px solid #d40000;
+    margin-right: 8px;
+}
+.caixa-login{
+    border: 5px #ffd900;
+    padding: 40px 30px;
+    background-color: transparent;
+    width: 320px;
+
+}
+.campo{
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    background-color: transparent;
+    border: #ffd900;
+    color:#ffd900;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.campo::placeholder{
+    color: #ffd900;
+}
+.esqueci{
+    color: #ffd900;
+    font-size: 12px;
+    text-aling: right;
+    display: block;
+    margin: 5px 0 15px 0;
+    text-decoration: none;
+}
+.linha{
+    border-bottom: 1px solid #ffd900;
+    margin: 10px 0px 0;
+}
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+</head>
+<body>
+<div class="logo">
+<span class="triangulo"></span>tela<span>

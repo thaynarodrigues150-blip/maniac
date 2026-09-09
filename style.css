@@ -1,15 +1,26 @@
-body {
-    color: #051b33;
+* {
     margin: 0;
     padding: 0;
-    font-family: Inria Serif,sans-serif;
-    border: 8px solid #d40000;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
+
+
+
 .logo {
     position: absolute;
     top: 20px;
@@ -17,33 +28,29 @@ body {
     color: white;
     font-weight: bold;
 }
+
 .logo span{
     color: #ffd900;
 }
-.triangulo{
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-top: 12px solid transparent;
-    border-left: 20px solid #d40000;
-    margin-right: 8px;
-}
-.caixa-login{
-    border: 5px #ffd900;
-    padding: 40px 30px;
-    background-color: transparent;
-    width: 320px;
 
+
+.caixa-login{
+    border: solid #ffd900 10px;
+    padding: 40px 30px;
+    background-color: #001D3D;
+    width: 495px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
 }
 .campo{
-    width: 100%;
-    padding: 8px;
-    margin: 10px;
-    background-color: transparent;
-    border: #ffd900;
-    color:#ffd900;
-    font-size: 16px;
-    box-sizing: border-box;
+    border: solid #ffd900 10px;
+    padding: 40px 30px;
+    background-color: #001D3D;
+    width: 50px;
+    height: 5px;
+    align-items: center;
+    justify-content: center;
 }
 .campo::placeholder{
     color: #ffd900;
@@ -51,7 +58,7 @@ body {
 .esqueci{
     color: #ffd900;
     font-size: 12px;
-    text-aling: right;
+    text-align: right;
     display: block;
     margin: 5px 0 15px 0;
     text-decoration: none;
@@ -69,7 +76,17 @@ body {
     text-decoration: none;
     margin-right: 10px;
 }
-</head>
-<body>
-<div class="logo">
-<span class="triangulo"></span>tela<span>
+.google img{
+    width: 30px;
+    margin-right: 10px;
+}
+.fundo {
+    display: flex;
+    background-color: #001D3D;
+    border: solid red 8px;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
